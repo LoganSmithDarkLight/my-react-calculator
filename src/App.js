@@ -18,6 +18,10 @@ class App extends Component {
   }
 
 
+  // ADD NEGATIVES AND DECIMALS
+
+
+
   handleChange(input) {
     this.setState({ currentNumber: input });
   }
@@ -47,6 +51,14 @@ class App extends Component {
           this.bufferedOperation = "";
         }
         break;
+      case '+/-':
+        if (this.currentNumber.charAt(0) == "-") {
+          this.currentNumber = this.currentNumber.replace('-', '');
+        }
+        else {
+          this.currentNumber = '-' + this.currentNumber;
+        }
+        break;
       default:
         if (this.currentNumber == 0) {
           this.currentNumber = "";
@@ -70,6 +82,8 @@ class App extends Component {
         <Button onClick={this.handleClick} label="7" value="7"></Button>
         <Button onClick={this.handleClick} label="8" value="8"></Button>
         <Button onClick={this.handleClick} label="9" value="9"></Button>
+        <Button onClick={this.handleClick} label="." value="."></Button>
+        <Button onClick={this.handleClick} label="+/-" value="+/-"></Button>
         <Button onClick={this.handleClick} label="+" value="+"></Button>
         <Button onClick={this.handleClick} label="-" value="-"></Button>
         <Button onClick={this.handleClick} label="*" value="*"></Button>
