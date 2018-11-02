@@ -17,11 +17,6 @@ class App extends Component {
     this.state = { currentNumber: 0 };
   }
 
-
-  // ADD NEGATIVES AND DECIMALS
-
-
-
   handleChange(input) {
     this.setState({ currentNumber: input });
   }
