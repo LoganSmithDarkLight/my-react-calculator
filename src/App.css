@@ -1,3 +1,88 @@
+.Logan_Smith_Calculator {
+  background: rgb(68, 18, 75);
+  color: rgb(179, 130, 219);
+  text-shadow: 0 0 5px rgba(89, 195, 195, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 29px;
+  box-sizing: border-box;
+  height: 40%;
+  width: 99%;
+  overflow: hidden;
+  font-size: 24px;
+  position: relative;
+}
+
+.WorksCited {
+  background: rgb(68, 18, 75);
+  color: rgb(179, 130, 219);
+  text-shadow: 0 0 5px rgba(89, 195, 195, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 29px;
+  box-sizing: border-box;
+  height: 20%;
+  width: 99%;
+  overflow: hidden;
+  font-size: 12px;
+  position: relative;
+}
+
+.CalculationArea {
+  background: #2B293D;
+  color: #59C3C3;
+  text-shadow: 0 0 5px rgba(89, 195, 195, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 29px;
+  box-sizing: border-box;
+  height: 30%;
+  width: 99%;
+  overflow: hidden;
+  font-size: 24px;
+  position: relative;
+}
+
+.Button {
+  background: #cad2c5;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #cad2c5 0%, #abb5aa 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #cad2c5 0%, #abb5aa 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #cad2c5 0%, #abb5aa 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cad2c5', endColorstr='#abb5aa', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  height: 20%;
+  min-width: 33%;
+  float: left;
+}
+
+.Button:hover {
+  background: #d7ddd3;
+  cursor: pointer;
+}
+
+.Button:active {
+  background: #bdc7b7;
+}
+
+
 .App {
   text-align: center;
 }
