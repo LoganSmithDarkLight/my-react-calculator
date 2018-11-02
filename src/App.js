@@ -78,13 +78,13 @@ class App extends Component {
         <Button onClick={this.handleClick} label="8" value="8"></Button>
         <Button onClick={this.handleClick} label="9" value="9"></Button>
         <Button onClick={this.handleClick} label="." value="."></Button>
-        <Button onClick={this.handleClick} label="+/-" value="+/-"></Button>
         <Button onClick={this.handleClick} label="+" value="+"></Button>
         <Button onClick={this.handleClick} label="-" value="-"></Button>
         <Button onClick={this.handleClick} label="*" value="*"></Button>
         <Button onClick={this.handleClick} label="/" value="/"></Button>
-        <Button onClick={this.handleClick} label="clear" value="clear"></Button>
         <Button onClick={this.handleClick} label="=" value="="></Button>
+        <Button onClick={this.handleClick} label="clear" value="clear"></Button>
+        <Button onClick={this.handleClick} label="+/-" value="+/-"></Button>
         <WorksCited></WorksCited>
       </div>
     );
