@@ -37,7 +37,7 @@ class App extends Component {
         break;
       case '+': case '-': case '*': case '/':
         if (!this.bufferedOperation) {
-          this.calcedNumber = this.state.currentNumber;
+          this.calcedNumber = this.currentNumber;
           this.currentNumber = "0";
           this.bufferedOperation = clicked;
         }
